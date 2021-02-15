@@ -1,0 +1,358 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans|Playfair+Display:400,700,400italic,700italic&subset=latin,cyrillic);
+
+body{
+  
+	font-size: 16px;
+	color: rgb(0, 0, 0);
+	/* background-color: #3d061b; */
+  font-family: 'Oxygen', sans-serif;
+  
+}
+header{
+  background-color: black;
+}
+
+#header-nav{
+	background-color: rgb(0, 0, 0);
+	border-radius: 0;
+  border: 0;
+  color: #000;
+	}
+
+
+
+.navbar-brand {
+  padding-top: 45px;
+  
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Lora', serif;
+  color: rgba(116, 0, 0, 0.6);
+  text-shadow: 2px 8px 6px rgba(58, 40, 40, 0.815),
+  0px -5px 35px rgba(255, 167, 167, 0.3);
+  font-size: 2em;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 20px;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #3d061b;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #000000;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+p.welcome{
+  font-size: 1.5em;
+  color: rgb(61, 105, 64);
+  background-color: thistle;
+  box-sizing: border-box;
+  border-radius: 0.5em;
+  border: 10px solid #8b8e4b;
+}
+
+#phone {
+  margin-top: 5px;
+}
+#phone a { /* Phone number */
+  text-align: right;
+  padding-bottom: 0;
+}
+#phone div { /* We Deliver */
+  color: #557c3e;
+  text-align: right;
+  padding-right: 15px;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #3d061b;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+/* END HEADER */
+
+/*FOOTER*/
+
+  .panel-footer{
+    margin-top: 30px;
+    padding-top: 35px;
+    padding-bottom: 30px;
+    background-color: #222;
+    border-top: 0;
+  }
+
+  .panel-footer div.row{
+    margin-bottom: 35px;
+  }
+
+  #hours, #address{
+    line-height: 2;
+    color: grey;
+  }
+
+  #hours >span, #address>span{
+    font-size: 1.3em;
+  }
+
+  #address p{
+    color: #557c3e;
+    font-size: .8em;
+    line-height: 1.8;
+
+  }
+
+  #testimonials p:nth-child(2){
+    margin-top: 25px;
+
+  }
+
+  #testimonials p{
+    color: #778899;
+    font-family: cursive;
+  }
+
+ 
+
+/* HOME PAGE */
+.container .jumbotron {
+  box-shadow: 0 0 50px #3d061b;
+  border: 2px solid #3d061b;
+  height: 500px;
+  width: 1200px;
+  background-image: url('img/akats.png ') ;
+  background-position: initial;
+
+}
+
+#menu-tile, #specials-tile, #map-tile {
+  height: 250px;
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  border: 2px solid #3F0C1F;
+ 
+  
+}
+#menu-tile:hover, #specials-tile:hover, #map-tile:hover {
+  box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+#menu-tile {
+  background: url('img/akatsukiFood.png') no-repeat;
+  background-position: center;
+}
+#specials-tile {
+  background: url('img/akatsukiFood.png') no-repeat;
+  background-position: center;
+}
+
+#menu-tile span, #specials-tile span, #map-tile span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.6em;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  opacity: .8;
+}
+
+table {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif, cursive;
+  border-collapse: collapse;
+  color: #573636;
+  margin: auto;
+  width: 500px;
+
+}
+caption {
+  padding: 10px;
+  color: white;
+  background: #000000;
+  font-size: 18px;
+  text-align: left;
+  font-weight: bold;
+  font-family: cursive;
+}
+th , td {
+  border-bottom: 3px solid #e06060;
+  padding: 10px;
+  text-align: center;
+}
+td {
+  padding: 10px;
+}
+tr:nth-child(odd) {
+  background: white;
+}
+tr:nth-child(even) {
+  background: #ca8b8b;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+
+.decor {
+  position: relative;
+  max-width: 400px;
+  margin: 50px auto 0;
+  background: rgb(221, 220, 220);
+  border-radius: 30px;
+}
+.form-left-decoration, .form-right-decoration {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 20px;
+  background: #330000;
+  border-radius: 20px;
+}
+.form-left-decoration {
+  bottom: 60px;
+  left: -30px;
+}
+.form-right-decoration {
+  top: 60px;
+  right: -30px;
+}
+.form-left-decoration:before, .form-left-decoration:after, .form-right-decoration:before, .form-right-decoration:after {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 20px;
+  border-radius: 30px;
+  background: white;
+}
+.form-left-decoration:before {
+  top: -20px;
+}
+.form-left-decoration:after {
+  top: 20px;
+  left: 10px;
+}
+.form-right-decoration:before {
+  top: -20px;
+  right: 0;
+}
+.form-right-decoration:after {
+  top: 20px;
+  right: 10px;
+}
+.circle {
+  position: absolute;
+  bottom: 80px;
+  left: -55px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: white;
+}
+.form-inner {
+  padding: 50px;
+}
+.form-inner input, .form-inner textarea {
+  display: block;
+  width: 100%;
+  padding: 0 20px;
+  margin-bottom: 10px;
+  background: #E9EFF6;
+  line-height: 40px;
+  border-width: 0;
+  border-radius: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+.form-inner input[type="submit"] {
+  margin-top: 30px;
+  background: #460000;
+  border-bottom: 4px solid #410000;
+  color: white;
+  font-size: 14px;
+}
+.form-inner textarea {
+  resize: none;
+}
+.form-inner h3 {
+  margin-top: 0;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  color: #707981;
+}
+
+.dotted {
+  list-style: none;
+  font-family: 'Playfair Display', cursive;
+  list-style-position: outside;
+  }
+  .dotted li {
+  margin-bottom: 5px;
+  border-bottom: 2px #4da75f dotted;
+  font-size: 26px;
+  line-height: 1;
+  }
+  .dotted li span:nth-child(odd) {
+  padding-right: 6px; 
+  color: #000000;
+  }
+  .dotted li span:nth-child(even) {
+  float: right; 
+  padding-left: 6px;
+  color: #000000;
+  }
+  .dotted span {
+  background: #5bcc71;
+  position: relative;
+  bottom: -7px;
+  font-family: cursive;
+  }
+
+  .gallery{
+    position: relative;
+  }
+
+  .gallery img{
+    width: 430px;
+    height: 400px;
+    margin: 30px;
+    float:inline-start;
+    border: 25px solid #fafafa;
+    border-top-width: 35px;
+    border-bottom-width: 100px;
+    -webkit-box-shadow: 3px 3px 6px 4px #888;
+    -moz-box-shadow: 3px 3px 6px 4px #888;
+    box-shadow: 3px 3px 6px 4px #888;
+  }
+
+
+
+/* END HOME PAGE */
+
+
+
+
+ 
+
+
+
