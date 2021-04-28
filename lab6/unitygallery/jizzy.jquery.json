@@ -1,0 +1,37 @@
+{
+    "name": "jizzy",
+    "title": "jIzzy",
+    "description": "jQuery plugin for multimedia control, as well as many other useful features.",
+    "keywords": [
+        "color",
+        "animation",
+        "multimedia",
+        "video",
+        "music"
+    ],
+    "version": "1.0.3",
+    "author": {
+        "name": "jQuery Foundation and other contributors",
+        "url": "https://github.com/jquery/jquery-color/blob/2.1.2/AUTHORS.txt"
+    },
+    "maintainers": [
+        {
+            "name": "shrimpboyho",
+            "email": "shrimpboyhoftw@gmail.com",
+            "url": "http://github.com"
+        }
+    ],
+    "licenses": [
+        {
+            "type": "GPL",
+            "url": "https://github.com/shrimpboyho/jizzy/blob/master/license.txt"
+        }
+    ],
+    "bugs": "https://github.com/shrimpboyho/jizzy/issues",
+    "homepage": "https://github.com/shrimpboyho/jizzy",
+    "docs": "https://github.com/shrimpboyho/jizzy",
+    "download": "https://github.com/shrimpboyho/jizzy/releases",
+    "dependencies": {
+        "jquery": ">=1.8"
+    }
+}

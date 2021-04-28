@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+</head>
+<body>
+<section id="lab_video_slider">
+  <div class="container-fluid">
+    <div class="row">
+      <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+      <!-- Link Swiper's CSS -->
+      <link rel="stylesheet" href="css/swiper.min.css">
+      <link rel="stylesheet" href="css/style.css">
+
+      <!-- Swiper -->
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div id="slide_one" class="swiper-slide">
+             <div id="lab_video_text_overlay">
+    <div class="container">
+      <h2>working Experiance </h2>
+      <p>working with dolor sit amet, consectetur adipiscing elit. Nunc molestie</p>
+      <a href="#" class="btn btn-default">View Our Work</a>
+      <a href="#" class="btn btn-warning">Learn About Us</a>
+
+    </div>
+  </div>
+            <!-- VIDEO -->
+            <video class="slider-video" width="100%" preload="auto" loop="" autoplay="" style="visibility: visible; width: 100%;" poster="img/working-with-espresso.jpg">
+              <source src="vid/working-with-espresso.mp4" type="video/mp4">
+             
+            </video>
+            <!-- END VIDEO -->
+          </div>
+
+          <div id="slide_two" class="swiper-slide">
+  <div id="lab_video_text_overlay">
+    <div class="container">
+      <h2>Lorum Ipsum Deloras </h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc molestie</p>
+      <a href="#" class="btn btn-default">View Our Work</a>
+      <a href="#" class="btn btn-warning">Learn About Us</a>
+
+    </div>
+  </div>
+  <!-- end #lab_overlay -->
+
+            <video class="slider-video" width="100%" preload="auto" loop="" autoplay="" style="visibility: visible; width: 100%;" poster="img/lab-coding-screenshot.jpg">
+              
+        <source src="vid/lab-coding.mp4" type="video/mp4">
+
+            </video>
+          
+          </div>
+
+          <div id="slide_three" class="swiper-slide">
+                   <div id="lab_video_text_overlay">
+    <div class="container">
+      <h2>Typing Numbers </h2>
+      <p>working with dolor sit amet, consectetur adipiscing elit. Nunc molestie</p>
+      <a href="#" class="btn btn-default">View Our Work</a>
+      <a href="#" class="btn btn-warning">Learn About Us</a>
+
+    </div>
+  </div>
+             <!-- VIDEO -->
+            <video class="slider-video" width="100%" preload="auto" loop="" autoplay="" style="visibility: visible; width: 100%;" poster="img/typing-numbers.jpg">
+              <source src="vid/typing-numbers.mp4" type="video/mp4">
+               
+            </video>
+            <!-- END VIDEO -->
+          </div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+        <!-- Add Arrows -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+
+      <!-- Swiper JS -->
+      <script src="js/swiper.min.js"></script>
+
+      <!-- Initialize Swiper -->
+      <script>
+        var swiper = new Swiper('.swiper-container', {
+            pagination: '.swiper-pagination',
+            paginationClickable: true,
+            nextButton: '.swiper-button-next',
+            prevButton: '.swiper-button-prev',
+            spaceBetween: 30,
+            autoplay: 5000,
+            autoplayDisableOnInteraction: false
+        });
+      </script>
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+    </div>
+    <!-- end .row -->
+  </div>
+  <!-- end .container-->
+  </div>
+  <!-- end #section -->
+  </body>
+</html>
